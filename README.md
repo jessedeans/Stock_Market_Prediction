@@ -1,2 +1,11 @@
 # Stock_Market_Prediction
-Linear Regression Model to Predict S&amp;P500 Future Close From Historical Data
+
+This repository contains a notebook and datset used to run scikit-learn's linear regression model to predict the future price of the S&P500 Index from historical data. The S&P500 is a stock market index that aggregates the stock prices of 500 large companies, more information on the S&P500 can be found [here](https://en.wikipedia.org/wiki/S%26P_500_Index). Predicting whether the index will go up or down helps forecast how the stock market as a whole will perform. 
+
+**Note: You shouldn't make trades with any models developed in this notebook. Trading stocks has risks, and nothing in this notebook constitutes stock trading advice.**
+
+## The Dataset
+
+I'll be working with a csv file containing index prices. Each row in the file contains a daily record of the price of the S&P500 Index from 1950 to 2015. The dataset is stored in `sphist.csv`.
+
+I'll be using this dataset to develop the predictive model. I'll train the model with data from 1950-2012, and try to make predictions from 2013-2015.
