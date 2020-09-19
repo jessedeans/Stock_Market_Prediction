@@ -1,4 +1,4 @@
-# Stock_Market_Prediction
+# Predicting the Stock Market
 
 This repository contains a notebook and datset used to run scikit-learn's linear regression model to predict the future price of the S&P500 Index from historical data. The S&P500 is a stock market index that aggregates the stock prices of 500 large companies, more information on the S&P500 can be found [here](https://en.wikipedia.org/wiki/S%26P_500_Index). Predicting whether the index will go up or down helps forecast how the stock market as a whole will perform. 
 
